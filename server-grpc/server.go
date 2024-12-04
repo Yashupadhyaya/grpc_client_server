@@ -39,6 +39,9 @@ type server struct {
 	Name string
 }
 
+const a = 1
+const b = 1
+
 // happyUpper takes a string and converts it to upper case and adds a smiley face emoji at the end of the string.
 func happyUpper(s string) string {
 	return strings.ToUpper(s) + "😊"
